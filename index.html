@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Romance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f6f6;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #e63946;
+        }
+        .heart {
+            color: #f39c12;
+            font-size: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #e63946;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #d62839;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Valentine's Day!</h1>
+    <p class="heart">❤️</p>
+    <p>Celebrate love and affection!</p>
+    <audio id="musicPlayer" controls>
+        <source src="valentine-song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <br><br>
+    <button onclick="sendLove()">Send Love!</button>
+    <script>
+        function sendLove() {
+            alert('Sending lots of love your way! 💖');
+        }
+    </script>
+</body>
+</html>
