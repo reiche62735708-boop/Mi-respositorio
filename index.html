@@ -3,49 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentine's Day Romance</title>
+    <title>Valentine's Day Romantic Music</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f6f6f6;
-            color: #333;
+            background-color: #ffebcd;
+            color: #c71585;
+            font-family: 'Arial', sans-serif;
             text-align: center;
-            padding: 50px;
+            padding: 20px;
         }
         h1 {
-            color: #e63946;
+            font-size: 3em;
+            margin-bottom: 20px;
         }
-        .heart {
-            color: #f39c12;
-            font-size: 50px;
+        p {
+            font-size: 1.2em;
         }
-        button {
-            padding: 10px 20px;
-            background-color: #e63946;
-            border: none;
-            color: white;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        button:hover {
-            background-color: #d62839;
+        audio {
+            margin-top: 20px;
+            width: 80%;
         }
     </style>
 </head>
 <body>
     <h1>Happy Valentine's Day!</h1>
-    <p class="heart">❤️</p>
-    <p>Celebrate love and affection!</p>
-    <audio id="musicPlayer" controls>
-        <source src="valentine-song.mp3" type="audio/mpeg">
+    <p>Enjoy this romantic music as you celebrate love.</p>
+    <audio controls>
+        <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
-    <br><br>
-    <button onclick="sendLove()">Send Love!</button>
-    <script>
-        function sendLove() {
-            alert('Sending lots of love your way! 💖');
-        }
-    </script>
 </body>
 </html>
